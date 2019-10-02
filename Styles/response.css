@@ -39,8 +39,8 @@
     }
 
     h2 {
+        text-align: center;
         font-size: 17px;
-        padding-left: 135px;
     }
 
     p {
@@ -111,7 +111,6 @@
 
     h2 {
         font-size: 28px;
-        padding-left: 220px;
     }
 
     p {
@@ -184,8 +183,6 @@
 
     h2 {
         font-size: 37px;
-        text-indent: 20px;
-        padding-left: 90px;
     }
 
     p {

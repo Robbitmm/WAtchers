@@ -80,7 +80,6 @@ header {
 
 
                 /*CONTEUDO*/
-
 h1{
     padding-top: 10px;
 
@@ -90,7 +89,7 @@ h1{
 
 h2 {
     font-size: 13px;
-    padding-left: 95px;
+    text-align: center;
 
     color: #808080;
 }
