@@ -1,0 +1,2 @@
+Logo = Arial Rounded MT Bold (66)
+DARK = Calibri Light
