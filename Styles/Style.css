@@ -90,7 +90,8 @@ h1{
 
 h2 {
     font-size: 13px;
-    text-indent: 10px;
+    padding-left: 95px;
+
     color: #808080;
 }
 
@@ -99,7 +100,8 @@ p {
     font-size: 15px;
     word-spacing: 3px;
 
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
                 /*ASIDE*/
