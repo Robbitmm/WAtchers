@@ -12,7 +12,7 @@
 
     .search_icon {
         width: 32px;
-        padding: 15px 15px 15px 15px;
+        padding: 15px 15px 10px 15px;
     }
 
     #search_input {
@@ -90,7 +90,7 @@
 
     .search_icon {
         width: 50px;
-        padding: 25px 25px 25px 25px;
+        padding: 25px 25px 10px 25px;
     }
 
     #search_input {
@@ -164,7 +164,7 @@
 
     .search_icon {
         width: 65px;
-        padding: 33px 33px 33px 33px;
+        padding: 33px 33px 10px 33px;
     }
 
     #search_input {
