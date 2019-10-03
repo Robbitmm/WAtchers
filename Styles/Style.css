@@ -41,6 +41,8 @@ header {
     border: 1px solid #808080;
     padding-left: 20%;
 
+    font-size: 15px;
+
     width: 70%;
     height: 30px;
     position: absolute;
@@ -81,8 +83,6 @@ header {
 
                 /*CONTEUDO*/
 h1{
-    padding-top: 10px;
-
     font-size: 20px;
     text-align: center;
 }

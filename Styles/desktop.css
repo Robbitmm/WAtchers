@@ -2,6 +2,10 @@
 @media (min-width: 1280px) {
 
            /*HEADER*/
+    header{
+        padding-bottom: 80px;
+    }
+
     .Logo {
         position: relative;
 
@@ -19,19 +23,6 @@
         display: none;
     }
 
-    .Menu li{
-        display: inline;
-        border-bottom: none;
-        background-color: none;
-
-        font-size: 30px;
-        word-spacing: 30px;
-
-        position: relative;       
-        bottom: 75px;
-        left: -40px;
-    }
-
     .search_icon{
         width: 30px;
         float: right;
@@ -41,6 +32,8 @@
     #search_input {
         position: relative;
         float: right;
+
+        font-size: 25px;
 
         height: 30px;
         width: 200px;
@@ -53,9 +46,40 @@
 
 
                     /*Menu*/
+    .Menu li {
+        display: inline-block;
+        border-bottom: none;
+        background-color: none;
+        font-size: 30px;
+        word-spacing: 30px;
+        position: relative;
+        bottom: 75px;
+        left: -40px;
+
+        padding-bottom: 5px;
+    }
 
     .Menu li:hover {
-        background-color: #C0C0C0;
+        background-color: #ffffff;
+    }
+
+    .Menu li::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2.5px;
+        bottom: 0;
+        left: 0;
+        
+        background-color: #000000;
+        transform-origin: bottom left;
+        transition: transform 0.25s ease-out;
+    }
+
+    .Menu li:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 
     .Menu li a {
@@ -70,9 +94,7 @@
     }
 
     h1{
-        position: relative;
-        padding-top: 140px;
-
+        display: block;
         font-size: 40px;
         text-align: center;
     }
@@ -170,6 +192,7 @@
         font-size: 60px;
         word-spacing: 60px;
         position: relative;
+        padding-bottom: 20px;
 
         bottom: 30px;
         left: -20px;
@@ -188,6 +211,9 @@
         width: 400px;
         top: 50px;
         left: -20px;
+
+        font-size: 50px;
+
         display: block;
     }
 
@@ -210,8 +236,7 @@
     }
 
     h1 {
-        position: relative;
-        padding-top: 280px;
+        position: relative; 
         font-size: 80px;
         text-align: center;
     }
